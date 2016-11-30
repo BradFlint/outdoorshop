@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/business.css">
+		<link rel="stylesheet" href="bootstrap-3.3.7/js/bootstrap.js">
+		<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/business.js"></script>
+		<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="navbar1">
+				<div class="header1">
+					<a href="home">
+						<h1>Home</h1>
+					</a>
+				</div>
+				<div class="header1">
+					<a href="contact"">
+						<h1>Contact</h1>
+					</a>
+				</div>
+				<div class="header1">
+					<a href="camping">
+						<h1>Camping</h1>
+					</a>
+				</div>
+				<div class="header1">
+					<a href="fishing"">
+						<h1>Fishing</h1>
+					</a>
+				</div>
+				<div class="header2">
+					<h2>The Outdoors Shop</h2>
+				</div>
+			</div>
+		</div>
+		<%= yield %> <!-- my erb pages show up here -->
+		<div class="body">
+			<div class="infobox1">
+				<img src="img/backpack.jpeg">
+				<h1>Backpacking Gear</h1>
+			</div>
+		</div>
+		<div class="body">
+			<div class="infobox2">
+				<img src="img/jacket.jpeg">
+				<h1>Outdoor Clothing</h1>
+			</div>
+		</div>
+		<div class="body">
+			<div class="infobox3">
+				<img src="img/tent.jpeg">
+				<h1>Camping Gear</h1>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="fly-wrapper">
+				<div class="image-wrapper">
+					<img id="fly1" src="img/img2.jpg">
+				</div>
+				<div class="image-wrapper">
+					<img id="fly2" src="img/img8.jpg">
+				</div>
+				<div class="image-wrapper">
+					<img id="fly3" src="img/img6.jpg">
+				</div>
+				<div class="image-wrapper">
+					<img id="fly4" src="img/img5.jpg">
+				</div>
+				<div class="image-wrapper">
+					<img id="fly5" src="img/img7.jpg">
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
