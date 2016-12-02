@@ -17,6 +17,10 @@ end
 get '/fishing' do  ##link to the fishing page##
 	erb :fishing
 end
+
+get '/' do
+	erb :home
+end
 ## json pulls the user input entered in the name, email and comment fields and sends email to me ##
 post '/form' do
 	puts params.inspect
